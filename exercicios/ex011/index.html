@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagem Dinâmicas</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="imagem flexivel">
+        
+    </picture>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midias/jack-stauber-buttercup.mp3" type="audio/mpeg">
+        <source src="midias/jack-stauber-buttercup.ogg" type="audio/ogg">
+        <source src="midias/jack-stauber-buttercup.wav" type="audio/wav">
+
+        <p>infelismente seu navegador não tem suporte para audio <a href="midias/jack-stauber-buttercup.mp3">click aqui para fazer o download do audio</a></p>
+    </audio>
+
+
+</body>
+</html>
